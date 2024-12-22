@@ -6,8 +6,6 @@ tags: [productivity, automation, discipline]
 author: rishabh
 ---
 
-# Discipline: The Underrated Automation Tool
-
 In my quest for productivity and simplicity, like many other I often find myself turning to different automation tools. From scheduling apps to smart home devices, these gadgets promise to free us from mundane tasks and make our life easier. And while these systems are undoubtedly helpful, there's one form of automation we often overlook: Discipline.
 
 > *Discipline is choosing between what you want now and what you want most. — Abraham Lincoln*
