@@ -13,7 +13,7 @@ timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-future: True
+future: true
 
 title: Rishabh # the main title
 
