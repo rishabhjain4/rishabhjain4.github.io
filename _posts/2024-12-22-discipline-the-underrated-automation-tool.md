@@ -3,7 +3,7 @@ title: "Discipline: The Underrated Automation Tool"
 date: 2024-12-22 10:25:33
 categories: [Productivity]
 tags: [productivity, automation, discipline]
-author: Rishabh Jain
+author: rishabh
 ---
 
 # Discipline: The Underrated Automation Tool
