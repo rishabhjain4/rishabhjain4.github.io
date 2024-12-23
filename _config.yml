@@ -140,10 +140,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: rishabhjain4/rishabhjain4.github.io # <gh-username>/<repo>
+    repo_id: R_kgDONQOrsw
+    category: General
+    category_id: DIC_kwDONQOrs84Cld7J
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
