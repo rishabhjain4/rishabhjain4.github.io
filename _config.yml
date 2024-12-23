@@ -9,8 +9,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-<<<<<<< HEAD
-timezone: Asia/Kolkata
+#timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -29,8 +28,7 @@ url: "https://rishabhjain4.github.io"
 
 github:
   username: rishabhjain4 # change to your GitHub username
-=======
-timezone:
+timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -48,7 +46,6 @@ url: ""
 
 github:
   username: github_username # change to your GitHub username
->>>>>>> v7.2.4
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -56,7 +53,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-<<<<<<< HEAD
+
   name: Rishabh Jain
   email: rishabhjain4891@gmail.com # change to your email address
   links:
@@ -67,17 +64,6 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     #- https://www.linkedin.com/in/rishabh4
-=======
-  name: your_full_name
-  email: example@domain.com # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
->>>>>>> v7.2.4
 
 # Site Verification Settings
 webmaster_verifications:
@@ -94,11 +80,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-<<<<<<< HEAD
     id: G-EY8FYR7ZK4 # fill in your Google Analytics ID
-=======
-    id: # fill in your Google Analytics ID
->>>>>>> v7.2.4
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -137,11 +119,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-<<<<<<< HEAD
 avatar: ./assets/img/personal/rj_w_!.jpeg
-=======
-avatar:
->>>>>>> v7.2.4
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -255,14 +233,10 @@ exclude:
   - tools
   - README.md
   - LICENSE
-<<<<<<< HEAD
-  - "*.config.js"
-  - package*.json
-=======
   - purgecss.js
   - rollup.config.js
   - "package*.json"
->>>>>>> v7.2.4
+
 
 jekyll-archives:
   enabled: [categories, tags]

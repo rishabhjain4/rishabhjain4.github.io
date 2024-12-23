@@ -24,7 +24,11 @@ package-lock.json
 
 # Misc
 <<<<<<< HEAD
+<<<<<<< HEAD
 _sass/dist
+=======
+_sass/vendors
+>>>>>>> v7.2.4
 =======
 _sass/vendors
 >>>>>>> v7.2.4
