@@ -1,8 +1,8 @@
 ---
 title: "Python Setup From Scratch"
 date: 2025-02-16 20:04:32
-categories: [python]
-tags: [setup, python]
+categories: [setup]
+tags: [python,windows,linux]
 author: rishabh 
 ---
 
