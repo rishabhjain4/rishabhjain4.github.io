@@ -2,8 +2,8 @@
 title: "Python Setup From Scratch"
 date: 2025-02-16 20:04:32
 categories: [setup]
-tags: [python,windows,linux]
-author: rishabh 
+tags: [python, windows, linux]
+author: rishabh
 ---
 
 After working across multiple operating systems and environments, I've developed a standard setup for Python development. This setup isn't just for Python; it can be applied to any development environment. I've divided the setup into several sections for better understanding. While I've used Conda for managing Python environments, I've encountered issues managing both project-specific and global Python environments.
@@ -23,12 +23,13 @@ For Linux, we have apt-get. For Windows, there are options like winget, Scoop, a
 For windows:
 
 Install scoop using the below command:
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-## Install pipx.
+## Install pipx
 
 [pipx](https://pipx.pypa.io/stable/) is a tool for installing Python packages in isolated environments. It's a great tool for managing Python CLI tools globally without affecting other Python environments.
 
@@ -40,6 +41,7 @@ pipx ensurepath
 ```
 
 - linux/ubuntu
+
 ```bash
 sudo apt update
 sudo apt install pipx
@@ -55,7 +57,7 @@ pipx ensurepath
 
 `pipx ensurepath` makes sure that your environment variables are updated to fetch pipx from anywhere.
 
-## Virtual environment manager.
+## Virtual environment manager
 
 I personally prefer [pyenv](https://github.com/pyenv/pyenv) because it's easy to use and manage Python environments. It's a great tool for managing Python versions and environments. Pyenv also helps install specific Python versions to meet your project's requirements.
 
@@ -72,13 +74,13 @@ curl -fsSL https://pyenv.run | bash
 ```
 
 - Windows
-For windows we use [pyenv-win](https://github.com/pyenv-win/pyenv-win). You can install it using scoop.
+  For windows we use [pyenv-win](https://github.com/pyenv-win/pyenv-win). You can install it using scoop.
 
 ```powershell
 scoop install pyenv
 ```
 
-## Project management tool.
+## Project management tool
 
 [Poetry](https://python-poetry.org/) is a great tool to manage python projects. It helps to manage dependencies, virtual environments, and build tools. It is a great tool to manage python projects.
 
@@ -90,7 +92,7 @@ Initially, I used to create virtual environments with venv, create requirements.
 pipx install poetry
 ```
 
-## Jupyter setup.
+## Jupyter setup
 
 Jupyter is an excellent tool for writing and executing Python code. It's widely used for data analysis, machine learning, deep learning, and more. I use Jupyter for writing Python scripts, testing code snippets, and presenting my results. One of the major challenges I've faced is accessing different project virtual environments under one Jupyter notebook, making it easy to switch between Python kernels. Pipx helps here by allowing me to have one installation of Jupyter and access different Python kernels.
 
@@ -99,6 +101,7 @@ Jupyter is an excellent tool for writing and executing Python code. It's widely 
 ```bash
 pipx install jupyterlab
 ```
+
 You can choose between lab or notebook, I prefer lab.
 
 ## Conclusion
