@@ -1,6 +1,7 @@
 # Bundler cache
 .bundle
 vendor
+ruby
 Gemfile.lock
 
 # Jekyll cache

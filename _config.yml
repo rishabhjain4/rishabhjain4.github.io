@@ -219,6 +219,7 @@ exclude:
   - purgecss.js
   - rollup.config.js
   - "package*.json"
+  - "ruby"
 
 
 jekyll-archives:
